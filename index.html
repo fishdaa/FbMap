@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <noscript>
+        <div id="no-js">
+            <h3>Oh no, you either have JavaScript turned off or your browser doesn't support JavaScript</h3>
+        </div>
+    </noscript>
+    <div class="errors">
+        <ul></ul>
+    </div>
+    <header class="header">
+        <h3>counter</h3>
+    </header>
+    <div class='wrap-box' id="add-files">
+        <span>
+            <input type="file" id="select-json" accept="application/json" multiple>
+            <input type="submit" id="add-json" value="Parse Json!">
+        </span>
+        <ul id="file-list"></ul>
+        <button id="remove-file">Remove</button>
+    </div>
+    <div class='wrap-box' id='parse-options'>
+        <h3>Options</h3>
+        <input type="checkbox" name="opt-find" id="find-word-opt">
+        <label for="opt-find">Find and Count Words</label>
+        <input type="checkbox" name="opt-reacts" id="reacts-opt">
+        <label for="opt-reacts">Count Reacts</label>
+    </div>
+
+    <div id='result-chart'>
+        
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

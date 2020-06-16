@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+ul {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+span {
+    margin: .5em;
+}
+
+#no-js {
+    padding: 1em;
+    background-color: #ff5151;
+}
+
+.header {
+    background-color: #08153f;
+    color: aliceblue;
+    padding: 1em;
+}
+
+.wrap-box {
+    padding: 1em;
+    border: black;
+    border-style: solid;
+    margin: 1em;
+}
+
+.btn-del {
+    margin: .5em;
+}
